@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Result</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Problem Description</h1>
+        <p><strong>{{ problem }}</strong></p>
+        <h2>Suggested Solution:</h2>
+        <p>{{ solution }}</p>
+        <a href="/">Back</a>
+    </div>
+</body>
+</html>
